@@ -100,7 +100,7 @@ void Analysis::beginJob()
   histoK =new TH1D("histoK","kaon; Minv; #events",10000, 2.0,15.0);
   histoPi =new TH1D("histoPi","pion; Minv; #events",10000, 2.0,15.0);
   histoPK =new TH1D("histoPK","proton; Minv; #events",10000, 2.0,15.0);
-  histodM=new TH!D("histodM", "muon; Minv; #events",10000, 0.0, 12.0);
+  histodM=new TH1D("histodM", "muon; Minv; #events",10000, 0.0, 12.0);
   cout << "HERE Analysis::beginJob()" << endl;
 }
 
