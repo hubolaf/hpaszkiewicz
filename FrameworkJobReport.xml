@@ -1,0 +1,16 @@
+<FrameworkJobReport>
+<FrameworkError ExitStatus="7002" Type="Fatal Exception" >
+<![CDATA[
+An exception of category 'ConfigFileReadError' occurred while
+   [0] Processing the python configuration file named analysis_cwPSjob.py
+Exception Message:
+ unknown python problem occurred.
+IndexError: list index out of range
+
+At:
+  analysis_cwPSjob.py(14): <module>
+
+
+]]>
+</FrameworkError>
+</FrameworkJobReport>
